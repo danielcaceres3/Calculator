@@ -32,3 +32,58 @@ body{
     font-size: 400%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.board{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    gap: 10px;
+}
+
+.row5{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.row4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.row3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.row2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    border-color: rgb(190, 126, 6);
+}
+
+.equals{
+    background-color: rgb(190, 126, 6);
+}

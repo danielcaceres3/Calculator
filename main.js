@@ -28,7 +28,14 @@ function operate(op, a, b){
     }
 }
 
-console.log(operate("+",6,6));
-console.log(operate("-",6,6));
-console.log(operate("x",6,6));
-console.log(operate("/",6,6));
+const btns = document.querySelectorAll("button");
+let answer = document.getElementsByClassName('answer');
+console.log(btns);
+
+
+btns.forEach(function(btn){
+    btn.addEventListener("click", () => {
+        answer.textContent = btn.textContent
+        console.log(answer.textContent)
+    });
+});
